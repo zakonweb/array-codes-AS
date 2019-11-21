@@ -1,0 +1,22 @@
+//DECLARATION OF SD ARRAY
+DECLARE myARR : ARRAY [1:5] OF INTEGER
+
+DIM i, X : INTEGER
+DIM isFound : BOOLEAN //FLAG
+isFound = FALSE
+
+//LINEAR SEARCH - SEARCHING AN ARRAY
+INPUT "INPUT A NUMBER TO SEARCH FOR IN ARRAY: ", X
+FOR i = 1 TO 5
+    IF myARR[i] = X
+      THEN
+        isFound = TRUE
+        EXIT FOR
+END FOR
+
+IF isFound = TRUE
+  THEN
+    OUTPUT X, " is not found."
+  ELSE
+    OUTPUT X, " is found at location ", i
+ENDIF
