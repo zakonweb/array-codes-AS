@@ -19,8 +19,8 @@ END FOR
 
 //BUBBLE SORT (ROBUST CODE) - SORTING AN ARRAY IN ASCENDING ORDER
 FOR j = 4 TO 1 Step -1
+   alreadySorted = TRUE
    FOR i = 1 to J
-     alreadySorted = TRUE
      IF myARR[i] > myARR[i+1]
        THEN
          X = myARR[i]
@@ -35,7 +35,7 @@ END FOR
 //BUBBLE SORT (ROBUST CODE) USING WHILE..ENDWHILE 
 //SORTING AN ARRAY IN ASCENDING ORDER
 FOR j = 4 TO 1 Step -1
-   alreadySorted = FASLE
+   alreadySorted = FALSE
    i = 0
    WHILE alreadySorted = FALSE OR i = j
      alreadySorted = TRUE
