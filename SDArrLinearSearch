@@ -12,6 +12,7 @@ FOR i = 1 TO 5
       THEN
         isFound = TRUE
         EXIT FOR
+    END IF
 END FOR
 
 IF isFound = TRUE
