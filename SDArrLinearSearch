@@ -15,7 +15,7 @@ FOR i = 1 TO 5
     END IF
 END FOR
 
-IF isFound = TRUE
+IF isFound = FASLE
   THEN
     OUTPUT X, " is not found."
   ELSE
