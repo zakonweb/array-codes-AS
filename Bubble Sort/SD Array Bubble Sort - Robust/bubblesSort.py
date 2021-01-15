@@ -3,7 +3,7 @@ def bubbleSort(array, length):
     i = 0
     j = 0
     temp = 0
-    for i in range(length-1, 0, -1):
+    for i in range(length-1, 0, -1):   #FOR i = 9 TO 0 step -1
         isSorted = True
         for j in range(i):
             if array[j] > array[j+1]:
